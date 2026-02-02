@@ -6,13 +6,9 @@
 }
 
 body {
-    height: 100vh;
-    background: url("assets/background.webp") center/cover no-repeat fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+  background: radial-gradient(circle at top, #111 0%, #000 60%);
 }
+
 
 .overlay {
     position: fixed;
@@ -21,16 +17,12 @@ body {
 }
 
 .card {
-    position: relative;
-    z-index: 2;
-    width: 360px;
-    padding: 30px;
-    border-radius: 16px;
-    background: rgba(15,15,15,0.9);
-    backdrop-filter: blur(10px);
-    text-align: center;
-    box-shadow: 0 0 40px rgba(0,0,0,0.8);
+  background: rgba(20, 20, 20, 0.9);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
 }
+
 
 .avatar {
     width: 90px;
